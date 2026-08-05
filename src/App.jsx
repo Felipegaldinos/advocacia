@@ -226,25 +226,25 @@ function App() {
                 </div>
                 <div>
                   <h1 className="text-xl font-serif font-bold text-navy">Almeida & Torres</h1>
-                  <p className="text-sm text-gray-600">Advocacia</p>
+                  <p className="text-sm text-gray-900">Advocacia</p>
                 </div>
               </div>
 
               {/* Desktop Menu */}
               <nav className="hidden md:flex items-center space-x-8">
-                <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-navy transition-colors font-medium">
+                <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-navy transition-colors font-medium">
                   Home
                 </button>
-                <button onClick={() => scrollToSection('sobre')} className="text-gray-700 hover:text-navy transition-colors font-medium">
+                <button onClick={() => scrollToSection('sobre')} className="text-gray-900 hover:text-navy transition-colors font-medium">
                   Sobre
                 </button>
-                <button onClick={() => scrollToSection('areas')} className="text-gray-700 hover:text-navy transition-colors font-medium">
+                <button onClick={() => scrollToSection('areas')} className="text-gray-900 hover:text-navy transition-colors font-medium">
                   Áreas de Atuação
                 </button>
-                <button onClick={() => scrollToSection('advogados')} className="text-gray-700 hover:text-navy transition-colors font-medium">
+                <button onClick={() => scrollToSection('advogados')} className="text-gray-900 hover:text-navy transition-colors font-medium">
                   Advogados
                 </button>
-                <button onClick={() => scrollToSection('conteudo')} className="text-gray-700 hover:text-navy transition-colors font-medium">
+                <button onClick={() => scrollToSection('conteudo')} className="text-gray-900 hover:text-navy transition-colors font-medium">
                   Conteúdo
                 </button>
                 <button onClick={() => scrollToSection('contato')} className="btn-primary">
